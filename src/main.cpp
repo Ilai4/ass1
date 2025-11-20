@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-=======
 //testing***************************************************
 
->>>>>>> refs/remotes/origin/main
 #include <iostream>
 #include <memory>
 #include <vector>
