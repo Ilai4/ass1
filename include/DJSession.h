@@ -39,7 +39,7 @@ private:
     ConfigurationManager config_manager;
     SessionConfig session_config;
     std::vector<std::string> track_titles;
-    bool play_all = false;
+    bool play_all;    
     // Session statistics
     struct SessionStats {
         size_t tracks_processed = 0;
@@ -50,6 +50,9 @@ private:
         size_t deck_loads_b = 0;
         size_t transitions = 0;
         size_t errors = 0;
+
+
+        
     } stats;
 
 public:
