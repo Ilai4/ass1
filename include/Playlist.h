@@ -41,9 +41,9 @@ public:
     ~Playlist();
 
 
-    //Playlist(const Playlist& other);
+    Playlist(const Playlist& other);
 
-    //Playlist& operator=(const Playlist& other);
+    Playlist& operator=(const Playlist& other);
 
 
     /**
